@@ -9,12 +9,12 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        home: resolve(__dirname, './pages/Home.jsx'),
-        login: resolve(__dirname, './pages/Login.jsx'),
-        dashboard: resolve(__dirname, './pages/Dashboard.jsx'),
-        mapeamento: resolve(__dirname, './pages/Mapeamento.jsx'),
-        novaPesquisa: resolve(__dirname, './pages/NovaPesquisa.jsx'),
-        pesquisa: resolve(__dirname, './pages/Pesquisa.jsx')
+        home: resolve(__dirname, './src/pages/Home.jsx'),
+        login: resolve(__dirname, './src/pages/Login.jsx'),
+        dashboard: resolve(__dirname, './src/pages/Dashboard.jsx'),
+        mapeamento: resolve(__dirname, './src/pages/Mapeamento.jsx'),
+        novaPesquisa: resolve(__dirname, './src/pages/NovaPesquisa.jsx'),
+        pesquisa: resolve(__dirname, './src/pages/Pesquisa.jsx')
       }
     }
   }
