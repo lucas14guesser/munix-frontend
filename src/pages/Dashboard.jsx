@@ -67,10 +67,6 @@ function Dashboard() {
                     <ModalContent style={{ backgroundColor: '#E6E6E6', padding: '0', maxWidth: '80rem' }}>
                         <Bar titles={['SECRETARIA DE SAÚDE - Hospitais']} />
 
-                        <div>
-                            <BtnAddBloco onClick={handleModalAddBloco}>Adicionar bloco</BtnAddBloco>
-                        </div>
-
                         <DivTable style={{ margin: '0 .5rem' }}>
                             <table>
                                 <thead>
@@ -83,7 +79,7 @@ function Dashboard() {
                                     <tr>
                                         <td>Equipamentos</td>
                                         <td style={{ display: 'flex', gap: '.3rem' }}>
-                                            <BtnEditPesquisa>
+                                            <BtnEditPesquisa onClick={handleModalAddBloco}>
                                                 <MdModeEdit />
                                             </BtnEditPesquisa>
                                             <BtnEditPesquisa>

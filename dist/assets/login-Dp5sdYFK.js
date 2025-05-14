@@ -1,4 +1,4 @@
-import{j as o}from"./index-BIoWsnOW.js";import{d as r,B as i}from"./Bar-CtZMtZBd.js";const n=r.div`
+import{d as r,j as o,B as i}from"./Bar-qEzKOJUz.js";const n=r.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,4 +57,4 @@ import{j as o}from"./index-BIoWsnOW.js";import{d as r,B as i}from"./Bar-CtZMtZBd
     &:hover {
         background-color: #3C2A63;
     }
-`;function p(){return o.jsxs("div",{children:[o.jsx("title",{children:"Entrar"}),o.jsx(i,{titles:["ÁREA DE LOGIN"]}),o.jsx(n,{children:o.jsxs(t,{children:[o.jsx(s,{children:o.jsx(d,{src:"#",alt:"logo"})}),o.jsxs(l,{children:[o.jsx(e,{type:"text",required:!0,placeholder:"Usuário"}),o.jsx(e,{type:"password",required:!0,placeholder:"Senha"})]}),o.jsx("div",{children:o.jsx(c,{children:"Entrar"})})]})})]})}export{p as L};
+`;function m(){return o.jsxs("div",{children:[o.jsx("title",{children:"Entrar"}),o.jsx(i,{titles:["ÁREA DE LOGIN"]}),o.jsx(n,{children:o.jsxs(t,{children:[o.jsx(s,{children:o.jsx(d,{src:"#",alt:"logo"})}),o.jsxs(l,{children:[o.jsx(e,{type:"text",required:!0,placeholder:"Usuário"}),o.jsx(e,{type:"password",required:!0,placeholder:"Senha"})]}),o.jsx("div",{children:o.jsx(c,{children:"Entrar"})})]})})]})}export{m as L};

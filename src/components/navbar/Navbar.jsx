@@ -15,7 +15,7 @@ function Navbar() {
                 <LinkItemNav to="/">Home</LinkItemNav>
             </li>
             <li>
-                <LinkItemNav to="/entrar">Entrar</LinkItemNav>
+                <LinkItemNav to="/">Entrar</LinkItemNav>
             </li>
         </UListaNav>
 

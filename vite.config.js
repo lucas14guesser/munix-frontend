@@ -9,7 +9,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        home: resolve(__dirname, './src/pages/Home.jsx'),
         login: resolve(__dirname, './src/pages/Login.jsx'),
         dashboard: resolve(__dirname, './src/pages/Dashboard.jsx'),
         mapeamento: resolve(__dirname, './src/pages/Mapeamento.jsx'),
